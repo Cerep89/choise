@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.line {
+    background-color: black;
+    height: 10px;
+}
+
+.main-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.search-form {
+    padding: 20px 0;
+    margin-right: 12px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    min-height: 30px;
+    border-top: 1px solid #dcdcdc;
+    padding: 6px 0;
+    margin: 0;
+}
+
+nav ul li ul {
+    /*display: none;*/
+    width: 100%;
+    background: transparent;
+    margin-top: 7px;
+    margin-bottom: -6px;
+
+}
+
+nav ul li ul li {
+    padding-left: 20px;
+}
+
+nav a,
+nav a:hover {
+    color: #696969;
+    font-size: 11px;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+    background: #eee;
+    margin-bottom: -6px;
+    margin-top: 7px;
+}
+
+nav ul li:hover {
+	background: #ccc;
+	display: block;
+}
+
+nav ul li ul li:hover a {
+	color: #fff;
+	display: block;
+}
+
+.selected {
+    background: #ccc !important;
+}
+
+.selected a {
+    color: #fff;
+}
+
+.gallery {
+	/*-webkit-filter: grayscale(100%);*/
+	filter: grayscale(100%);
+}
+
+.gallery:hover {
+	filter: none;
+}
+
+.single-large {
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+}
+
+.posts {
+	margin: 0;
+	padding: 0;
+}
+
+.popular h3 {
+	margin-top: -2px;
+}
+
+.about p {
+    font-size: 12px;
+}
+
+.portfolio {
+	margin: 0;
+}
+
+.portfolio img {
+	padding: 10px;
+}
+
+.form-horizontal {
+    margin-bottom: 30%;
+}
+
+footer {
+	background: #363636;
+	min-height: 120px;
+	color: #c9c9c9;
+}
+
+.copyright, .social {
+	margin-top: 2%;
+	margin-left: 14%;
+}
+
+.social {
+	margin-right: 1%;
+}
+
+.in{
+    border: 1px solid red;
+}
